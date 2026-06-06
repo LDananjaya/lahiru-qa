@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playwright Sample | Lahiru Dananjaya</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">LD</span>
+        <span>Lahiru Dananjaya</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#testimonials">Testimonials</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero sample-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Playwright Sample Project</p>
+          <h1>Smoke tests for a QA portfolio website.</h1>
+          <p class="hero-text">
+            This sample project demonstrates practical Playwright coverage for homepage content, resume links, testimonials, and contact profile validation.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="tests/portfolio-smoke.spec.ts">View Test Spec</a>
+            <a class="button secondary" href="README.md">Read Setup Notes</a>
+          </div>
+        </div>
+        <figure>
+          <img src="../assets/screenshots/playwright-results-sample.svg" alt="Sample Playwright smoke test result">
+          <figcaption>Sample smoke test result</figcaption>
+        </figure>
+      </section>
+
+      <section class="section compact">
+        <div class="section-heading">
+          <p class="eyebrow">Coverage</p>
+          <h2>What the sample checks</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <h3>Homepage Smoke Check</h3>
+            <p>Confirms the portfolio title, hero message, and QA service content are visible.</p>
+          </article>
+          <article>
+            <h3>Resume and Navigation</h3>
+            <p>Validates the resume PDF link and sample project navigation target.</p>
+          </article>
+          <article>
+            <h3>Testimonials and Contact</h3>
+            <p>Checks Upwork testimonials and verifies email, LinkedIn, and Upwork links.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

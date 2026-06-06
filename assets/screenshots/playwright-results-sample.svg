@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="680" viewBox="0 0 980 680" role="img" aria-labelledby="title desc">
+  <title id="title">Sample Playwright results</title>
+  <desc id="desc">A sample Playwright automation result screen with passing smoke tests.</desc>
+  <rect width="980" height="680" fill="#111827"/>
+  <rect x="42" y="42" width="896" height="596" rx="18" fill="#17202a" stroke="#334155"/>
+  <circle cx="84" cy="78" r="8" fill="#ef4444"/>
+  <circle cx="112" cy="78" r="8" fill="#f59e0b"/>
+  <circle cx="140" cy="78" r="8" fill="#22c55e"/>
+  <text x="78" y="144" fill="#e5e7eb" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">playwright test</text>
+  <text x="78" y="196" fill="#86efac" font-family="Menlo, Consolas, monospace" font-size="18">✓ portfolio homepage loads</text>
+  <text x="78" y="236" fill="#86efac" font-family="Menlo, Consolas, monospace" font-size="18">✓ resume link is available</text>
+  <text x="78" y="276" fill="#86efac" font-family="Menlo, Consolas, monospace" font-size="18">✓ testimonials are visible</text>
+  <text x="78" y="316" fill="#86efac" font-family="Menlo, Consolas, monospace" font-size="18">✓ contact links render correctly</text>
+  <rect x="78" y="372" width="824" height="96" rx="12" fill="#0f766e"/>
+  <text x="112" y="416" fill="#ffffff" font-family="Menlo, Consolas, monospace" font-size="20" font-weight="700">4 passed</text>
+  <text x="112" y="448" fill="#d1fae5" font-family="Menlo, Consolas, monospace" font-size="16">Smoke suite completed successfully</text>
+  <text x="78" y="542" fill="#94a3b8" font-family="Menlo, Consolas, monospace" font-size="16">Reports: html, list</text>
+  <text x="78" y="578" fill="#94a3b8" font-family="Menlo, Consolas, monospace" font-size="16">Target: local portfolio site</text>
+</svg>

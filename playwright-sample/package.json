@@ -1,0 +1,14 @@
+{
+  "name": "lahiru-qa-playwright-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample Playwright smoke tests for Lahiru Dananjaya's QA portfolio.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
