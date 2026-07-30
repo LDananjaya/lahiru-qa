@@ -3,194 +3,468 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lahiru Dananjaya, QA Engineer specializing in manual testing, Playwright automation, fintech QA, SaaS workflow testing, and detailed bug reporting.">
-    <title>Lahiru Dananjaya | QA Engineer Portfolio</title>
+    <script>
+      (function () {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      })();
+    </script>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lahiru Dananjaya">
+    <meta name="keywords" content="QA freelancer, freelance QA tester, QA engineer, Lahiru Dananjaya, manual QA testing, Playwright automation, software tester for hire, API testing, regression testing, mobile app testing, fintech QA">
+    <meta name="description" content="Lahiru Dananjaya, freelance Senior QA Engineer with 5+ years testing web, mobile, API &amp; fintech apps. Playwright automation. 5-star rated on Upwork and Fiverr.">
+    <link rel="canonical" href="https://ldananjaya.github.io/lahiru-qa/">
+    <title>Lahiru Dananjaya | Freelance QA Engineer &amp; QA Consultant</title>
+
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Lahiru Dananjaya | QA Engineer Portfolio">
+    <meta property="og:title" content="Lahiru Dananjaya | Freelance QA Engineer &amp; QA Consultant">
+    <meta property="og:description" content="Freelance Senior QA Engineer with 5+ years testing web, mobile, API, and fintech applications. Manual testing, Playwright automation, 5-star rated on Upwork and Fiverr.">
+    <meta property="og:url" content="https://ldananjaya.github.io/lahiru-qa/">
+    <meta property="og:image" content="https://ldananjaya.github.io/lahiru-qa/assets/profile/lahiru-dananjaya-profile.png">
+    <meta property="og:image:width" content="1949">
+    <meta property="og:image:height" content="1949">
+    <meta property="og:image:alt" content="Lahiru Dananjaya, QA Engineer">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lahiru Dananjaya | Freelance QA Engineer &amp; QA Consultant">
+    <meta name="twitter:description" content="Freelance Senior QA Engineer with 5+ years testing web, mobile, API, and fintech applications. 5-star rated on Upwork and Fiverr.">
+    <meta name="twitter:image" content="https://ldananjaya.github.io/lahiru-qa/assets/profile/lahiru-dananjaya-profile.png">
+
+    <meta name="theme-color" content="#0a0a0b">
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
     <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Lahiru Dananjaya",
+      "url": "https://ldananjaya.github.io/lahiru-qa/",
+      "image": "https://ldananjaya.github.io/lahiru-qa/assets/profile/lahiru-dananjaya-profile.png",
+      "jobTitle": "Senior QA Engineer / QA Consultant",
+      "description": "Freelance Senior QA Engineer / QA Consultant with 5+ years testing web, mobile, API, and fintech applications.",
+      "email": "mailto:dananjaya703@gmail.com",
+      "telephone": "+94773560490",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Colombo",
+        "addressCountry": "LK"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Corzent EDGE"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Sri Lanka Institute of Information Technology"
+      },
+      "knowsAbout": ["Manual QA Testing", "Playwright Automation", "API Testing", "Regression Testing", "Mobile Testing", "Database Testing", "Cross-Browser Testing"],
+      "sameAs": [
+        "https://www.linkedin.com/in/lahirudananjaya/",
+        "https://www.upwork.com/freelancers/lahirudananjaya",
+        "https://www.fiverr.com/sellers/lahiru4545"
+      ]
+    }
+    </script>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Lahiru Dananjaya portfolio home">
-        <span class="brand-mark">LD</span>
-        <span>Lahiru Dananjaya</span>
-      </a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <main id="top">
-      <section class="hero section">
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between dark and light mode" aria-pressed="false">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M2.5 12h3M18.5 12h3M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.5 8.5 0 1 1 9.4 4a7 7 0 0 0 10.6 10.6Z"/></svg>
+    </button>
+
+    <nav class="side-nav" aria-label="Primary navigation">
+      <a class="side-brand" href="#top" aria-label="Lahiru Dananjaya home">LD</a>
+      <ul>
+        <li><a href="#top" data-nav="top" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9h5v-5h2v5h5v-9"/></svg><span>Home</span></a></li>
+        <li><a href="#about" data-nav="about" aria-label="About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c1.4-4 4-6 7-6s5.6 2 7 6"/></svg><span>About</span></a></li>
+        <li><a href="#experience" data-nav="experience" aria-label="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="11" rx="1.5"/><path d="M9 8V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg><span>Experience</span></a></li>
+        <li><a href="#skills" data-nav="skills" aria-label="Skills"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 4 9l3 3-3 3 5 5"/><path d="m15 4 5 5-3 3 3 3-5 5"/></svg><span>Skills</span></a></li>
+        <li><a href="#portfolio" data-nav="portfolio" aria-label="Portfolio"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="7" height="7"/><rect x="13.5" y="4.5" width="7" height="7"/><rect x="3.5" y="14.5" width="7" height="5"/><rect x="13.5" y="14.5" width="7" height="5"/></svg><span>Portfolio</span></a></li>
+        <li><a href="#testimonials" data-nav="testimonials" aria-label="Testimonials"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10M7 12h6"/><path d="M4 5h16v10H10l-4 4v-4H4z"/></svg><span>Testimonials</span></a></li>
+        <li><a href="#contact" data-nav="contact" aria-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="1.5"/><path d="m4.5 6.5 7.5 6 7.5-6"/></svg><span>Contact</span></a></li>
+      </ul>
+      <a class="side-resume" href="resume/lahiru-dananjaya-resume.pdf" aria-label="Download resume PDF"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">QA Engineer | Manual Testing | Playwright Automation</p>
-          <h1>Reliable QA for web, mobile, fintech, and SaaS products.</h1>
+          <p class="eyebrow">Hello, I'm Lahiru</p>
+          <h1>SENIOR QA ENGINEER<br>&amp; QA CONSULTANT</h1>
           <p class="hero-text">
-            I help teams ship with confidence through structured manual testing, regression coverage, detailed bug reports, and practical Playwright automation.
+            Production bugs cost revenue, customer trust, and reputation. I help SaaS, fintech, and enterprise teams
+            release high-quality software by finding critical issues before their users do &mdash; through manual
+            testing, Playwright automation, API validation, and database verification.
           </p>
-          <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button primary" href="resume/lahiru-dananjaya-resume.pdf">Download Resume</a>
-            <a class="button secondary" href="playwright-sample/">View Playwright Sample</a>
-          </div>
-          <div class="stats" aria-label="Professional highlights">
-            <span><strong>5+</strong> years QA experience</span>
-            <span><strong>5-star</strong> Upwork feedback</span>
-            <span><img class="stat-icon" src="assets/icons/rising-talent.svg" alt="" aria-hidden="true"><strong>Rising Talent</strong> on Upwork</span>
+          <div class="hero-actions">
+            <a class="button primary" href="resume/lahiru-dananjaya-resume.pdf">Download CV
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            </a>
+            <a class="button secondary" href="mailto:dananjaya703@gmail.com?subject=Free%2015-minute%20QA%20consultation">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+              Free 15-min Consultation
+            </a>
           </div>
         </div>
-        <aside class="profile-panel" aria-label="Profile summary">
-          <img class="profile-photo" src="assets/profile/lahiru-dananjaya-profile.png" alt="Lahiru Dananjaya profile photo">
-          <div class="profile-summary">
-            <h2>Lahiru Dananjaya</h2>
-            <p>Manual QA, SaaS workflow testing, fintech regression, mobile testing, and Playwright smoke coverage.</p>
+        <div class="hero-figure">
+          <div class="hero-chevrons" aria-hidden="true">
+            <span class="chevron chevron-1"></span>
+            <span class="chevron chevron-2"></span>
+            <span class="diag-line"></span>
           </div>
-        </aside>
-      </section>
-
-      <section class="section compact" id="services">
-        <div class="section-heading">
-          <p class="eyebrow">Services</p>
-          <h2>Testing support for release-ready products</h2>
-        </div>
-        <div class="service-grid">
-          <article>
-            <h3>Manual QA Testing</h3>
-            <p>Exploratory, regression, sanity, smoke, UI/UX, mobile, and cross-browser testing for product releases.</p>
-          </article>
-          <article>
-            <h3>SaaS Workflow Testing</h3>
-            <p>CRM, quoting, permissions, approvals, calculations, form validation, and full end-to-end business flows.</p>
-          </article>
-          <article>
-            <h3>Playwright Automation</h3>
-            <p>Maintainable smoke tests for core user journeys, forms, navigation, and stable high-value workflows.</p>
-          </article>
+          <picture>
+            <source srcset="assets/profile/lahiru-dananjaya-profile-cutout.webp" type="image/webp">
+            <img class="hero-photo" src="assets/profile/lahiru-dananjaya-profile-cutout.png" alt="Lahiru Dananjaya, QA Engineer" width="1100" height="1100" fetchpriority="high">
+          </picture>
         </div>
       </section>
 
-      <section class="section split" id="screenshots">
-        <div class="section-heading">
-          <p class="eyebrow">Screenshots</p>
-          <h2>QA report and testing artifacts</h2>
-          <p>Sample visuals showing how QA findings, regression coverage, and automation results can be documented.</p>
-        </div>
-        <div class="screenshot-grid">
-          <figure>
-            <img src="assets/screenshots/bug-report-sample.svg" alt="Sample QA bug report screenshot">
-            <figcaption>Bug report format</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/regression-summary-sample.svg" alt="Sample regression summary screenshot">
-            <figcaption>Regression summary</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/playwright-results-sample.svg" alt="Sample Playwright test result screenshot">
-            <figcaption>Automation result</figcaption>
-          </figure>
+      <section class="stats-strip" aria-label="Career highlights">
+        <div class="stats-grid">
+          <div class="stat" data-count="5" data-suffix="+">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Years QA Experience</span>
+          </div>
+          <div class="stat" data-count="40" data-suffix="+">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Apps Tested</span>
+          </div>
+          <div class="stat" data-count="3000" data-suffix="+">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Test Cases Executed</span>
+          </div>
+          <div class="stat" data-count="1000" data-suffix="+">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Defects Logged</span>
+          </div>
         </div>
       </section>
 
-      <section class="section compact" id="projects">
+      <section class="section" id="about">
         <div class="section-heading">
-          <p class="eyebrow">Portfolio Projects</p>
-          <h2>Focused examples of QA work</h2>
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-headline" class="typewriter-heading">
+            <span class="sr-only">I take ownership of quality, not just test cases</span>
+            <span id="about-headline-text" aria-hidden="true">I take ownership of quality, not just test cases</span><span class="typewriter-cursor" aria-hidden="true"></span>
+          </h2>
         </div>
-        <div class="project-list">
-          <article>
-            <span class="tag">Fintech QA</span>
-            <h3>Fintech Regression Test Coverage</h3>
-            <p>Transaction workflows, account flows, forms, cross-browser validation, release feedback, and clear bug reports.</p>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I'm a Senior QA Engineer / QA Consultant with 5+ years delivering quality assurance for web, mobile,
+              API, and enterprise applications. From manual testing and Playwright automation to API validation and
+              database verification, I help teams ship stable, production-ready software with confidence.
+            </p>
+            <p>
+              Currently I work as a Senior QA Consultant at <strong>Corzent EDGE</strong>, contributing to enterprise
+              fintech quality assurance, automation initiatives, and release validation. Previously I spent 2 years
+              9 months as a QA Engineer at <strong>Virtusa</strong>, supporting enterprise-scale platforms including
+              TikTok and Paycor in Agile environments.
+            </p>
+            <p>
+              I don't just execute test cases &mdash; I take ownership of quality from requirement analysis through
+              production release, working closely with developers, product owners, and release teams to reduce
+              production risk.
+            </p>
+            <ul class="about-facts">
+              <li>ISTQB Certified (Foundation Level &amp; Mobile Application Testing Specialist)</li>
+              <li>Reduced regression testing time from 1 day to ~2 hours with Playwright automation</li>
+              <li>BSc (Hons) Information Technology, SLIT &mdash; started career in full-stack development</li>
+              <li>Based in Colombo, Sri Lanka &mdash; available for remote engagements worldwide</li>
+            </ul>
+          </div>
+          <aside class="about-card">
+            <h3>Industries &amp; Products</h3>
+            <ul class="pill-list">
+              <li>TikTok (Web &amp; Mobile)</li>
+              <li>Paycor &mdash; HR &amp; Payroll SaaS</li>
+              <li>Simpology &mdash; Enterprise FinTech</li>
+              <li>SaaS Applications</li>
+              <li>Financial Services</li>
+              <li>Enterprise Business Systems</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section alt" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Where I've delivered QA</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="1.5"/><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/><path d="M10.5 12.5h3v1.6h-3z"/></svg></span>
+            <div class="timeline-body">
+              <p class="timeline-org">CORZENT EDGE PVT. LTD.</p>
+              <h3>Senior QA Consultant</h3>
+              <p class="timeline-date">Nov 2024 &ndash; Present &middot; 1 yr 7 mo</p>
+              <p>
+                End-to-end testing for financial web and mobile applications on the Simpology project, including
+                Australian bank loan processing systems. Functional, regression, usability, cross-browser, and
+                cross-device testing aligned with banking compliance and security standards. Building Playwright
+                automation for E2E scenarios and supporting UAT and production readiness.
+              </p>
+            </div>
           </article>
-          <article>
-            <span class="tag">SaaS QA</span>
-            <h3>CRM & Quoting SaaS Testing</h3>
-            <p>User roles, quote creation, calculations, approvals, status updates, validation rules, and end-to-end workflows.</p>
+          <article class="timeline-item">
+            <span class="timeline-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="1.5"/><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/><path d="M10.5 12.5h3v1.6h-3z"/></svg></span>
+            <div class="timeline-body">
+              <p class="timeline-org">VIRTUSA PVT. LTD.</p>
+              <h3>QA Engineer</h3>
+              <p class="timeline-date">Mar 2022 &ndash; Nov 2024 &middot; 2 yr 9 mo</p>
+              <p>
+                Manual and mobile testing for the TikTok Open Platform and Creator Center apps, collaborating
+                directly with USA and China stakeholder teams &mdash; iOS/Android, API validation, and compatibility
+                testing. Also supported Paycor, a US HR &amp; payroll SaaS platform, with database testing, data
+                verification, and financial report validation.
+              </p>
+            </div>
           </article>
-          <article>
-            <span class="tag">Automation</span>
-            <h3>Playwright Smoke Test Suite</h3>
-            <p>Sample Playwright project covering homepage checks, contact links, resume link validation, and portfolio navigation.</p>
+          <article class="timeline-item">
+            <span class="timeline-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="7.5" width="17" height="12" rx="1.5"/><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/><path d="M3.5 12.5h17"/><path d="M10.5 12.5h3v1.6h-3z"/></svg></span>
+            <div class="timeline-body">
+              <p class="timeline-org">RAPIDVENTURE BUSINESS SOLUTIONS</p>
+              <h3>Full Stack Developer</h3>
+              <p class="timeline-date">Nov 2020 &ndash; Apr 2021</p>
+              <p>
+                Built web apps with PHP, JavaScript, jQuery, and MySQL, plus Flutter mobile apps for logistics,
+                inventory, and pharmacy management clients &mdash; the technical foundation behind how I read code
+                and reproduce bugs today.
+              </p>
+            </div>
           </article>
         </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">What I Can Help With</p>
+          <h2>QA coverage across the full stack</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3>Manual &amp; Exploratory Testing</h3>
+            <p>Functional, exploratory, regression, smoke &amp; sanity, end-to-end, cross-browser, cross-device, UAT, and UI/UX validation.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Automation Testing</h3>
+            <p>Playwright test automation, E2E framework development, regression automation, flaky-test analysis, and CI-integrated execution.</p>
+          </article>
+          <article class="skill-card">
+            <h3>API &amp; Backend Testing</h3>
+            <p>REST API testing with Postman, auth/authorization testing, API workflow validation, and Charles Proxy network debugging.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Database Testing</h3>
+            <p>Oracle and MySQL validation, SQL query checks, data integrity testing, and backend data verification.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Mobile Testing</h3>
+            <p>Real-device testing on iPhone 16, iPhone 11 Pro, iPad 11, Samsung phones &amp; tablets, and Android emulators (BlueStacks).</p>
+          </article>
+          <article class="skill-card">
+            <h3>CI/CD &amp; Release Validation</h3>
+            <p>Bitbucket Pipelines, Octopus Deploy, Docker, and Azure &mdash; build verification, QA/UAT validation, and release quality gates.</p>
+          </article>
+        </div>
+        <div class="carousel tools-carousel" data-autoplay="2600" aria-label="Tools and technologies">
+          <div class="carousel-viewport">
+            <div class="carousel-track tools-track">
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/playwright.svg" alt="" width="28" height="28" loading="lazy"></span><span>Playwright</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/postman.svg" alt="" width="28" height="28" loading="lazy"></span><span>Postman</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/charles-proxy.svg" alt="" width="28" height="28" loading="lazy"></span><span>Charles Proxy</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/oracle.svg" alt="" width="28" height="28" loading="lazy"></span><span>Oracle</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/mysql.svg" alt="" width="28" height="28" loading="lazy"></span><span>MySQL</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/jira.svg" alt="" width="28" height="28" loading="lazy"></span><span>Jira</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/confluence.svg" alt="" width="28" height="28" loading="lazy"></span><span>Confluence</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/bitbucket.svg" alt="" width="28" height="28" loading="lazy"></span><span>Bitbucket Pipelines</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/octopus-deploy.svg" alt="" width="28" height="28" loading="lazy"></span><span>Octopus Deploy</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/docker.svg" alt="" width="28" height="28" loading="lazy"></span><span>Docker</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/azure.svg" alt="" width="28" height="28" loading="lazy"></span><span>Azure</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/bluestacks.svg" alt="" width="28" height="28" loading="lazy"></span><span>BlueStacks</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/chatgpt.svg" alt="" width="28" height="28" loading="lazy"></span><span>ChatGPT</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/claude.svg" alt="" width="28" height="28" loading="lazy"></span><span>Claude</span></div>
+              <div class="tool-card"><span class="tool-logo"><img src="assets/logos/gemini.svg" alt="" width="28" height="28" loading="lazy"></span><span>Gemini</span></div>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button type="button" class="carousel-btn" data-dir="-1" aria-label="Previous tool">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg>
+            </button>
+            <button type="button" class="carousel-btn" data-dir="1" aria-label="Next tool">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="portfolio">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>QA reports &amp; testing artifacts</h2>
+          <p>Samples of how I document findings, regression coverage, and automation results for teams.</p>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <a href="assets/screenshots/bug-report-sample.svg" target="_blank" rel="noopener">
+              <img src="assets/screenshots/bug-report-sample.svg" alt="Sample QA bug report" width="980" height="680" loading="lazy">
+            </a>
+            <h3>Bug Report Format</h3>
+            <p>Clear, reproducible bug reports with steps, expected vs. actual results, and screenshots.</p>
+          </article>
+          <article class="portfolio-card">
+            <a href="assets/screenshots/regression-summary-sample.svg" target="_blank" rel="noopener">
+              <img src="assets/screenshots/regression-summary-sample.svg" alt="Sample QA regression summary" width="980" height="680" loading="lazy">
+            </a>
+            <h3>Regression Summary</h3>
+            <p>Release-readiness snapshots covering pass/fail coverage across critical user journeys.</p>
+          </article>
+          <article class="portfolio-card">
+            <a href="assets/screenshots/playwright-results-sample.svg" target="_blank" rel="noopener">
+              <img src="assets/screenshots/playwright-results-sample.svg" alt="Sample Playwright automation results" width="980" height="680" loading="lazy">
+            </a>
+            <h3>Automation Results</h3>
+            <p>Playwright smoke coverage that cut regression testing from a day down to ~2 hours.</p>
+          </article>
+        </div>
+        <a class="button secondary" href="playwright-sample/">View Playwright Sample Project</a>
       </section>
 
       <section class="section testimonials" id="testimonials">
         <div class="section-heading">
-          <p class="eyebrow">Upwork Testimonials</p>
-          <h2>5-star client feedback</h2>
+          <p class="eyebrow">Client Feedback</p>
+          <h2>5-star reviews on Upwork &amp; Fiverr</h2>
         </div>
-        <div class="testimonial-grid">
-          <blockquote>
-            <p>"Lahiru ran a very thorough test of our new webapp and found several issues that others didn't. Extra points for a great reporting format, which is very clear and, additionally, a total piece of art! Much appreciated, thank you very much! Will hire again when I need more iOS testing"</p>
-            <footer>⭐⭐⭐⭐⭐ 5 stars on Upwork | Web app testing and QA reporting</footer>
-          </blockquote>
-          <blockquote>
-            <p>"It was our pleasure working with Lahiru. He provided a great and very detailed report that we will be using in improving our workflows. We will work again when we have some similar tasks."</p>
-            <footer>⭐⭐⭐⭐⭐ 5 stars on Upwork | Workflow testing and improvement reporting</footer>
-          </blockquote>
+        <div class="carousel" data-autoplay="4000">
+          <div class="carousel-viewport">
+          <div class="carousel-track">
+            <blockquote class="testimonial-card">
+              <span class="source-badge upwork">Upwork</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"Lahiru ran a very thorough test of our new webapp and found several issues that others didn't. Extra points for a great reporting format, which is very clear and, additionally, a total piece of art!"</p>
+              <footer>Upwork Client &middot; Web app testing &amp; QA reporting</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge upwork">Upwork</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"Lahiru clearly communicated confusing points during the user test, and provided improvement potential for the app from a user perspective. Exactly what I hired him for."</p>
+              <footer>Upwork Client &middot; User testing</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge upwork">Upwork</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"It was our pleasure working with Lahiru. He provided a great and very detailed report that we will be using in improving our workflows. We will work again."</p>
+              <footer>Upwork Client &middot; Workflow testing</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge upwork">Upwork</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"I've had Lahiru as my Test Lead for several months now. Whereas most testers settle for filling their test result sheets just to get paid, Lahiru is PROACTIVE! He not only reports what goes wrong, but also suggests what to do about it. So, for good software teams who want a committed tester who does more than requested, hire Lahiru!"</p>
+              <footer>Upwork Client &middot; Long-term Test Lead engagement</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge fiverr">Fiverr</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"I gave him a QA task for my website, and he did an excellent job. He provided a detailed PDF report with clear screenshots, making it very easy to understand the issues and improvements needed. Professional, thorough, and highly recommended!"</p>
+              <footer>saj_ani &middot; Australia</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge fiverr">Fiverr</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"Great testing and very nice report. Will come again, thank you."</p>
+              <footer>ashwint87 &middot; India</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge fiverr">Fiverr</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"Really great to work with, cannot recommend highly enough!"</p>
+              <footer>djkimbo &middot; Canada &middot; Repeat Client</footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <span class="source-badge fiverr">Fiverr</span>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <p>"He's great to work with. We will hire for more projects."</p>
+              <footer>innov8vee &middot; United States</footer>
+            </blockquote>
+          </div>
+          </div>
+          <div class="carousel-controls">
+            <button type="button" class="carousel-btn" data-dir="-1" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg>
+            </button>
+            <button type="button" class="carousel-btn" data-dir="1" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+            </button>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer" id="contact">
-      <div class="contact-copy">
-        <p class="eyebrow">Contact</p>
-        <h2>Available for QA testing and Playwright automation work.</h2>
-        <p>Share a few details about your product, release, or QA task and open a ready-to-send email.</p>
-        <div class="contact-links">
-          <a href="mailto:dananjaya703@gmail.com">dananjaya703@gmail.com</a>
-          <a href="https://www.linkedin.com/in/lahirudananjaya/">LinkedIn</a>
-          <a href="https://www.upwork.com/freelancers/lahirudananjaya?mp_source=share">Upwork</a>
-          <a href="resume/lahiru-dananjaya-resume.pdf">Resume PDF</a>
+      <div class="footer-top">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's ship better software together.</h2>
+          <p>Share a few details about your product, release, or QA task and open a ready-to-send email &mdash; or grab a free 15-minute consultation.</p>
+          <div class="contact-links">
+            <a href="mailto:dananjaya703@gmail.com">dananjaya703@gmail.com</a>
+            <a href="tel:+94773560490">+94 77 356 0490</a>
+            <a href="https://www.linkedin.com/in/lahirudananjaya/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.upwork.com/freelancers/lahirudananjaya?mp_source=share" target="_blank" rel="noopener">Upwork</a>
+            <a href="https://www.fiverr.com/sellers/lahiru4545" target="_blank" rel="noopener">Fiverr</a>
+            <a href="resume/lahiru-dananjaya-resume.pdf">Resume PDF</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            <span>Project type</span>
+            <select name="projectType" required>
+              <option value="">Select one</option>
+              <option>Manual QA testing</option>
+              <option>Regression testing</option>
+              <option>Playwright automation</option>
+              <option>API / database testing</option>
+              <option>Mobile app testing</option>
+              <option>Free 15-min consultation</option>
+            </select>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Send Email</button>
+        </form>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Lahiru Dananjaya. Based in Colombo, Sri Lanka &mdash; available for remote QA engagements worldwide.</p>
+        <div class="footer-links">
+          <a href="https://www.upwork.com/freelancers/lahirudananjaya?mp_source=share" target="_blank" rel="noopener">Upwork</a>
+          <a href="https://www.fiverr.com/sellers/lahiru4545" target="_blank" rel="noopener">Fiverr</a>
+          <a href="https://www.linkedin.com/in/lahirudananjaya/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
-      <form class="contact-form" id="contact-form">
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" autocomplete="name" required>
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="email" name="email" autocomplete="email" required>
-        </label>
-        <label>
-          <span>Project type</span>
-          <select name="projectType" required>
-            <option value="">Select one</option>
-            <option>Manual QA testing</option>
-            <option>Regression testing</option>
-            <option>Playwright automation</option>
-            <option>Mobile app testing</option>
-            <option>SaaS workflow testing</option>
-          </select>
-        </label>
-        <label>
-          <span>Message</span>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button class="button primary" type="submit">Send Email</button>
-      </form>
     </footer>
-    <script>
-      const contactForm = document.querySelector('#contact-form');
 
-      contactForm.addEventListener('submit', (event) => {
-        event.preventDefault();
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+    </button>
 
-        const form = new FormData(contactForm);
-        const subject = `QA project inquiry from ${form.get('name')}`;
-        const body = [
-          `Name: ${form.get('name')}`,
-          `Email: ${form.get('email')}`,
-          `Project type: ${form.get('projectType')}`,
-          '',
-          'Message:',
-          form.get('message'),
-        ].join('\n');
-
-        window.location.href = `mailto:dananjaya703@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
